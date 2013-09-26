@@ -1,0 +1,6 @@
+float32 total_voltage
+float64 max_total_voltage
+float64 warn_total_voltage
+float64 critical_total_voltage
+float64 max_cell_voltage
+BatteryCell[] cells

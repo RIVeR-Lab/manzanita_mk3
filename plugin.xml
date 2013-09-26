@@ -1,0 +1,11 @@
+<library path="src">
+  <class name="BatteryDashboard" type="battery.BatteryDashboard" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      Battery Status Viewer for Manzanita MK3 Battery Monitor
+    </description>
+    <qtgui>
+      <label>Manzanita MK3 Battery Monitor</label>
+      <statustip></statustip>
+    </qtgui>
+  </class>
+</library>
