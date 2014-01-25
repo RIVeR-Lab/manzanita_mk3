@@ -56,7 +56,7 @@ add_dependencies(battery_viewer ${PROJECT_NAME}_gencpp)
 add_dependencies(mk3_driver ${PROJECT_NAME}_gencfg)
 
 # make sure the dynamic config has dependencies
-add_dependencies(${PROJECT_NAME}_gencfg device_driver_base serial_port)
+add_dependencies(${PROJECT_NAME}_gencfg device_driver_base_generate_messages)
 
 
 target_link_libraries(mk3_driver ${catkin_LIBRARIES})# device_driver serial_port)
