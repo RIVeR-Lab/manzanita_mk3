@@ -9,6 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   message_generation
   std_msgs
+  rqt_gui
 )
 
 catkin_python_setup()
@@ -32,6 +33,7 @@ catkin_package(
     rqt_robot_dashboard
     message_runtime
     std_msgs
+    rqt_gui
   DEPENDS
 )
 
